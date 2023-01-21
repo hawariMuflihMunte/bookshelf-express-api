@@ -10,9 +10,11 @@ app.use((request, response, callback) => {
 
   if (request.method === 'OPTIONS') {
     response.header('Access-Control-Allow-Methods',
-        'GET, POST, PATCH, DELETE, PUT');
+      'GET, POST, PATCH, DELETE, PUT');
     return response.status(200).json({});
   }
+
+  callback();
 });
 
 const productRoutes = require('./api/routes/products');
