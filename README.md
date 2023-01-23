@@ -15,8 +15,11 @@ Supported Method (HTTP Verbs) on each endpoint is:
 #### /books
 * GET
 * POST
+
+#### /books/:id
+* GET
 * PUT
 * DELETE
 
 ---
-This API is not yet completed as its used for educational purposes only
+This API is completed and is used for educational purposes only
