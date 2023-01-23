@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "node": true
+    },
+    "extends": "xo",
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-undef": "off",
+        "no-unused-vars": "off",
+        "new-cap": "off",
+        "no-else-return": "off",
+        "no-negated-condition": "off"
+    }
+}
